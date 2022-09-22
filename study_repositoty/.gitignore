@@ -1,0 +1,5 @@
+material/
+**/package.json
+**/package-lock.json
+**/package-after-install.json
+node_modules/
