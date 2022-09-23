@@ -1,0 +1,10 @@
+
+	// 配列を作成
+	const obj = {menuA: 'コーヒー', menuB: '紅茶', menuC: 'ジュース'};
+
+	// @``see 分割代入
+	const {menuA: a, menuB: b, menuC: c} = obj;
+
+	// コンソールに出力
+	console.log(a, b, c);
+

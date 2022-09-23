@@ -1,0 +1,17 @@
+
+
+	// オブジェクトの作成
+	const menu = {coffee: '450円', cake: '600円'};
+
+	// プロパティ値の出力
+	console.log(menu.coffee);
+	console.log(menu['cake']);
+
+	// プロパティ値の書きかえ
+	menu.coffee = '460円';
+	menu['cake'] = '620円';
+
+	// プロパティ値の出力
+	console.log(menu.coffee);
+	console.log(menu['cake']);
+

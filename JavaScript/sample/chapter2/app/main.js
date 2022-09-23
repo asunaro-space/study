@@ -1,9 +1,9 @@
-	// DOMの読み込み終了時の処理を登録
+	// @see DOMの読み込み終了時の処理を登録
 	window.addEventListener('DOMContentLoaded', function() {
-		// id="calc" のボタンを1つ選択
+		// @see id="calc" のボタンを1つ選択
 		let elCalc = document.querySelector('#calc');
 
-		// ボタンをクリックしたときの処理を追加
+		// @see ボタンをクリックしたときの処理を追加
 		elCalc.addEventListener('click', function() {
 			// class="price" 要素（商品1～3の金額）を全て選択
 			let prices = document.querySelectorAll('.price');

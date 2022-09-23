@@ -4,6 +4,7 @@
 
 	// アクセス先
 	app.get('/', function (req, res) {
+		// @see sendメソッド
 		res.send('Hello World');
 	});
 

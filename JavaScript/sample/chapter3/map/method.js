@@ -1,0 +1,16 @@
+
+
+	// マップを作成
+	const myMap = new Map();
+	myMap.set('coffee', 'コーヒー');
+	myMap.set('tea', '紅茶');
+	myMap.set('cake', 'ケーキ');
+
+	// コンソールに出力
+	console.log('サイズ :', myMap.size);
+	console.log('coffee :', myMap.get('coffee'));
+
+	// 全てのキーと値を出力
+	myMap.forEach(function(value, key) {
+		console.log('forEach : ', key, ' : ', value);
+	});

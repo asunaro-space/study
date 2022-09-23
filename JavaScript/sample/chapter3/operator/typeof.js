@@ -1,0 +1,11 @@
+
+
+	// 型を判別
+	console.log(typeof 16);
+	console.log(typeof 'コーヒー');
+	console.log(typeof true);
+	console.log(typeof undefined);
+	console.log(typeof parseInt);
+	console.log(typeof [1, 2, 3]);
+	console.log(typeof {a: 2, b: 4});
+	console.log(typeof null);
