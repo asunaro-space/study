@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列を作成
 	let arr = [1, 2, 3, 4, 5];
@@ -12,7 +8,3 @@
 	console.log(arr.includes('3'));
 	console.log(arr.includes(3, 3));
 	console.log(arr.includes(3, -3));
-
-    </script>
-  </head>
-</html>

@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列とカウンターを作成
 	const arr = [1,2,,,,,,3];
@@ -16,7 +12,3 @@
 
 	// コンソールに出力
 	console.log(`要素数は${arr.length}、実行数は${cnt}`);
-
-    </script>
-  </head>
-</html>

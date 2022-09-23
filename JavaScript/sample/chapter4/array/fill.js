@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列を作成してコンソールに出力
 	const arr1 = new Array(4);
@@ -17,7 +13,3 @@
 	const arr3 = arr1.fill('☆', 1, 3);
 	console.log(arr1);
 	console.log(arr3);
-
-    </script>
-  </head>
-</html>

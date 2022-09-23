@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列を作成してコンソールに出力
 	const arr = [1, 2, [3, 4], [[5, 6], [[7, 8], [9, 10]]]];
@@ -16,6 +12,3 @@
 	// 元の配列をコンソールに出力
 	console.log(arr);
 
-    </script>
-  </head>
-</html>

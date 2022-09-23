@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列を作成してコンソールに出力
 	const arr = [20, 21, 22];
@@ -31,6 +27,3 @@
 	console.log('  ', head);
 	console.log('  ', arr);
 
-    </script>
-  </head>
-</html>

@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列を作成
 	const arr = [0, 1, 2, 3, 4, 5];
@@ -12,7 +8,3 @@
 
 	// コンソールに出力
 	console.log(arr2);
-
-    </script>
-  </head>
-</html>

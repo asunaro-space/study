@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列を作成
 	const arr = [10, 20, 30, 40];
@@ -13,7 +9,3 @@
 		return a + b;
 	}, 0);
 	console.log(sum);
-
-    </script>
-  </head>
-</html>

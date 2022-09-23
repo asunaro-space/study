@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列を作成
 	const arr = [
@@ -19,6 +15,3 @@
 	console.log(arr.findIndex(x => x.price >= 500));
 	console.log(arr.findIndex(x => x.price >= 1000));
 
-    </script>
-  </head>
-</html>

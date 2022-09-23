@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列を作成してコンソールに出力
 	const arr = [1, 2, 3, 4];
@@ -11,7 +7,3 @@
 	// .reverse()で向きを逆転させてコンソールに出力
 	arr.reverse();
 	console.log(arr);
-
-    </script>
-  </head>
-</html>

@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列を作成
 	const arr = ['コーヒー', '紅茶', 'ケーキ'];
@@ -15,6 +11,3 @@
 		console.log(key);
 	}
 
-    </script>
-  </head>
-</html>

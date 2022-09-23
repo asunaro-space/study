@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
+
 
 	// 配列を作成
 	const arr1 = ['コーヒー', '紅茶'];
@@ -16,6 +12,3 @@
 	// 元の配列は影響を受けない
 	console.log(arr1);
 
-    </script>
-  </head>
-</html>
