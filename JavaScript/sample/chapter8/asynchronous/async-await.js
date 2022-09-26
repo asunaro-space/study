@@ -1,48 +1,41 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
 
-	// 待機用の関数
-	function wait(msg, isResolve = true) {
-		// Promiseオブジェクトを戻り値にする
-		return new Promise((resolve, reject) => {
-			// 100ミリ秒待って実行
-			setTimeout(() => {
-				if (isResolve) {
-					// isResolveがtrueなら解決
-					resolve(msg);
-				} else {
-					// isResolveがfalseなら拒否
-					reject(`error（${msg}）`);
-				}
-			}, 100);
-		});
-	};
 
-	// async実験用の関数
-	async function exec() {
-		console.log('--- 処理開始 ---');
+// 待機用の関数
+function wait(msg, isResolve = true) {
+	// Promiseオブジェクトを戻り値にする
+	return new Promise((resolve, reject) => {
+		// 100ミリ秒待って実行
+		setTimeout(() => {
+			if (isResolve) {
+				// isResolveがtrueなら解決
+				resolve(msg);
+			} else {
+				// isResolveがfalseなら拒否
+				reject(`error（${msg}）`);
+			}
+		}, 100);
+	});
+};
 
-		console.log(await wait('処理A'));
-		console.log(await wait('処理B'));
+// async実験用の関数
+async function exec() {
+	console.log('--- 処理開始 ---');
 
-		console.log('処理途中');
+	console.log(await wait('処理A'));
+	console.log(await wait('処理B'));
 
-		const c = await wait('処理C');
-		const d = await wait('処理D');
-		console.log(c);
-		console.log(d);
+	console.log('処理途中');
 
-		console.log('--- 処理終了 ---');
-	};
+	const c = await wait('処理C');
+	const d = await wait('処理D');
+	console.log(c);
+	console.log(d);
 
-	// 処理の開始
-	console.log('--> 処理1');
-	console.log('--> exec()', exec());
-	console.log('--> 処理2');
+	console.log('--- 処理終了 ---');
+};
 
-    </script>
-  </head>
-</html>
+// 処理の開始
+console.log('--> 処理1');
+console.log('--> exec()', exec());
+console.log('--> 処理2');
+

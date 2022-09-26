@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <script>
 
 	// メインの処理の流れ
 	console.log('処理1');
@@ -18,6 +13,3 @@
 	console.log('処理5');
 	console.log('処理6');
 
-    </script>
-  </body>
-</html>
